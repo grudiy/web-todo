@@ -11,7 +11,7 @@ def add_todo():
 
 
 st.title("My ToDo App")
-st.subheader(time.strftime("%b %d, %Y %H:%M:%S"))
+st.subheader(time.strftime("%b %d, %Y"))
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
